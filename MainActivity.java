@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 database.execSQL("CREATE TABLE if not exists " + "PORODUCT" + "(" +
                         "_id integer PRIMARY KEY autoincrement," +
                         "username text," +
-                        "password text," +
+                        "password text" +
                         ")");
                 Toast.makeText(this,"table :" + "PORODUCT" + "Create",Toast.LENGTH_SHORT).show();
             }
