@@ -62,7 +62,7 @@
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="가입하기"
+            android:text="Register"
             android:id="@+id/Button1"
             android:onClick="Button1OnClicked" />
     </LinearLayout>
