@@ -46,6 +46,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/editPassWord"
             android:hint="Type your password."
@@ -88,6 +89,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
                 android:id="@+id/editText2"
                 android:gravity="center"
                 android:hint="Password" />
